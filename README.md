@@ -40,20 +40,24 @@ OpenCV를 활용하여 이미지 데이터를 분석하고 전처리하는 기�
 필요한 라이브러리를 설치합니다.
 ```bash
 pip install opencv-python numpy open3d pytest
+```
 
 ### 2. 실행 방법
 이미지 전처리 (1주차)
 ```bash
 python image_preprocessing.py
+```
 
 3D 변환 및 시각화 (2주차)
 ```bash
 python main.py
+```
 실행 시 'Original Image', 'Depth Map' 창과 함께 3D 뷰어가 실행됩니다.
 
 단위 테스트(Unit Test) 수행
 ```bash
 pytest uni_test.py
+```
 
 ### 3. 트러블슈팅
 - FileNotFoundError 발생 시: 실행 위치에 sample.jpg 혹은 Lenna.jpg 파일이 존재하는지 확인해주세요.
