@@ -1,0 +1,13 @@
+train: ./datasets/train/images  # 학습 이미지 경로
+val: ./datasets/valid/images    # 검증 이미지 경로
+test: ./datasets/test/images    # 테스트 이미지 경로 (선택 사항)
+
+nc: 2
+names: ['Car', 'Cars']
+
+roboflow:
+  workspace: practice-mbfyl
+  project: car-dwybi-i6qj7
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/practice-mbfyl/car-dwybi-i6qj7/dataset/1
